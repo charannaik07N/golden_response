@@ -1,0 +1,15 @@
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          50: "#eef2ff",
+          500: "#4f46e5",
+          700: "#3730a3",
+        },
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};
